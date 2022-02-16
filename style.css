@@ -12,10 +12,15 @@ html {
     font-family: 'poppins', sans-serif;
 }
 
+
+
 .navigation {
-    background-color: rgba(165, 161, 164, 0.377);
+    background-color: rgb(255, 239, 255);
     padding: 15px;
+    width: 100%;
     display: flex;
+    position: fixed;
+    z-index: 999;
 }
 
 .header-div {
@@ -30,16 +35,102 @@ html {
 }
 
 .header-div h1 {
-    margin-right: 70rem;
-    margin-left: 10px;
+    margin-right: 60rem;
     font-size: 1.4rem;
     font-weight: 800;
     color: rgb(161, 60, 255);
 }
 
 .navigation a {
-    margin-right: 100px;
+    margin-right: 80px;
+    margin-left: 40px;
     font-size: 1.4rem;
     text-decoration: none;
     color: rgb(132, 0, 255);
 }
+
+.navigation a:hover {
+      color: rgb(76, 0, 255);
+}
+
+.container {
+    padding-top:8rem;
+    padding-left: 6rem;
+}
+
+.main-titles {
+    margin-left: 4rem;
+    margin-bottom: 4rem;
+}
+
+.title {
+    font-size: 4rem;
+    color: blueviolet;
+    margin-bottom: 5px;
+}
+
+.subtitle {
+    font-size: 1.8rem;
+}
+
+.subtitle-infos {
+    font-size: 1.2rem;
+}
+
+.pricing {
+
+    display: flex;
+    margin-top: 2rem;
+}
+
+.buy-button {
+    margin-right: 2rem;
+    background-color: rgb(171, 84, 253);
+    padding: 1.8rem;
+    border-radius: 10px;
+    text-decoration: none;
+    font-size: 1.5rem;
+    font-weight: 500;
+    letter-spacing: 0.6px;
+    color: rgb(255, 255, 255);
+    transition: 0.7s ease;
+
+}
+
+.buy-button:hover {
+    background-color: rgb(138, 35, 255);
+    transform: scale(1.1);
+
+}
+
+.price {
+    font-size: 1.5rem;
+    margin-top: 18px;
+}
+
+.card {
+    width: 350px;
+    font-size: 1.5rem;
+}
+.content {
+    background-color: blueviolet;
+    padding: 2.6rem;
+    border-radius: 20px;
+    box-shadow: 2px 2px 15px 10px antiquewhite;
+
+}
+
+.card-title {
+    margin-bottom: 4px;
+    color: rgb(255, 255, 255);
+    font-weight: 650;
+    letter-spacing: 1px;
+    font-size: 1.4rem;
+}
+
+.card-infos {
+    margin-bottom: 4px;
+    font-weight: 600;
+}
+
+
