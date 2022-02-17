@@ -15,7 +15,7 @@ html {
 
 
 .navigation {
-    background-color: rgb(255, 239, 255);
+    background-color: rgb(250, 238, 255);
     padding: 15px;
     width: 100%;
     display: flex;
@@ -53,6 +53,13 @@ html {
       color: rgb(76, 0, 255);
 }
 
+.main {
+    background-color: rgb(187, 223, 255);
+    padding-bottom: 6rem;
+    
+}
+
+
 .container {
     padding-top:8rem;
     padding-left: 6rem;
@@ -64,9 +71,9 @@ html {
 }
 
 .title {
-    font-size: 4rem;
+    font-size: 4.2rem;
     color: blueviolet;
-    margin-bottom: 5px;
+    margin-bottom: 30px;
 }
 
 .subtitle {
@@ -109,14 +116,29 @@ html {
 }
 
 .card {
+    padding-top: 2rem;
     width: 350px;
     font-size: 1.5rem;
 }
 .content {
-    background-color: blueviolet;
+    background:rgb(175, 55, 255) ;
     padding: 2.6rem;
-    border-radius: 20px;
-    box-shadow: 2px 2px 15px 10px antiquewhite;
+    border-radius: 30px;
+    box-shadow: 2px 2px 15px 10px rgb(244, 215, 250);
+    transition: 0.7s ease;
+}
+
+.content:hover {
+    transform: scale(1.1);
+}
+
+
+.icons {
+    color: rgb(255, 255, 255);
+    font-size: 6rem;
+    margin-bottom: 0.5rem;
+    text-align: center;
+
 
 }
 
@@ -131,6 +153,30 @@ html {
 .card-infos {
     margin-bottom: 4px;
     font-weight: 600;
+}
+
+.console-image {
+    position: absolute;
+    width: 45rem;
+    top: 5rem;
+    right: 4rem;
+    z-index: 100;
+    transition: 0.7s ease;
+}
+
+
+.console-image:hover {
+    transform: scale(1.1);
+}
+.color-box {
+    position: absolute;
+    right: 0;
+    top: 0;
+    background: linear-gradient(rgb(255, 255, 255),rgb(175, 55, 255));
+    border-radius: 40px 0 0 40px;
+    height: 65%;
+    width: 50%;
+    z-index: 0;
 }
 
 
