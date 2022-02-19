@@ -16,7 +16,7 @@ html {
 
 .navigation {
     background-color: rgb(250, 238, 255);
-    padding: 15px;
+    padding: 1.5rem;
     width: 100%;
     display: flex;
     position: fixed;
@@ -42,8 +42,8 @@ html {
 }
 
 .navigation a {
-    margin-right: 80px;
-    margin-left: 40px;
+    margin-right: 8rem;
+    margin-left: 4rem;
     font-size: 1.4rem;
     text-decoration: none;
     color: rgb(132, 0, 255);
@@ -63,6 +63,7 @@ html {
 .container {
     padding-top:8rem;
     padding-left: 6rem;
+    
 }
 
 .main-titles {
@@ -73,7 +74,7 @@ html {
 .title {
     font-size: 4.2rem;
     color: blueviolet;
-    margin-bottom: 30px;
+    margin-bottom: 3rem;
 }
 
 .subtitle {
@@ -168,6 +169,7 @@ html {
 .console-image:hover {
     transform: scale(1.1);
 }
+
 .color-box {
     position: absolute;
     right: 0;
@@ -176,6 +178,7 @@ html {
     border-radius: 4rem 0 0 4rem;
     height: 65%;
     width: 50%;
+
 }
 
 .vr-items {
@@ -218,7 +221,7 @@ html {
 .vr-img {
     width: 35%;
     position: absolute;
-    right: 0;
+    right: 4rem;
     bottom: -80%;
     transition: 0.7s ease;
 }
@@ -233,7 +236,7 @@ html {
     margin-top: 14rem;
     display: flex;
     justify-content:space-around;
-    flex-direction: row;
+
 }
 
 
@@ -286,7 +289,7 @@ html {
 .games-title {
     text-align: center;
     color: rgb(255, 255, 255);
-    padding-top: 3rem;
+    padding-top: 3.6rem;
     font-size: 3.5rem;
 
 }
@@ -370,8 +373,6 @@ html {
     margin-right: 30px;
     font-size: 1.2rem;
 }
-
-
 
 
 
