@@ -85,7 +85,6 @@ html {
 }
 
 .pricing {
-
     display: flex;
     margin-top: 2rem;
 }
@@ -162,6 +161,7 @@ html {
     right: 4rem;
     z-index: 100;
     transition: 0.7s ease;
+
 }
 
 
@@ -173,10 +173,179 @@ html {
     right: 0;
     top: 0;
     background: linear-gradient(rgb(255, 255, 255),rgb(175, 55, 255));
-    border-radius: 40px 0 0 40px;
+    border-radius: 4rem 0 0 4rem;
     height: 65%;
     width: 50%;
-    z-index: 0;
 }
+
+.vr-items {
+    background-color: rgb(55, 101, 255);
+
+}
+
+.vr-container {
+    padding: 8rem;
+    
+}
+
+.vr-titles {
+    padding-bottom: 2rem;
+}
+
+
+.vr-title {
+    font-size: 3.6rem;
+    text-align: center;
+    color: white;
+    margin-top: -3rem;
+    margin-bottom: 4rem;
+    
+}
+
+.vr-subtitle {
+    font-size: 2.8rem;
+    margin-top: 2rem;
+}
+
+.vr-paragraph {
+    font-size: 1.5rem;
+}
+
+.vr-pricing {
+    display: flex;
+}
+
+.vr-img {
+    width: 35%;
+    position: absolute;
+    right: 0;
+    bottom: -80%;
+    transition: 0.7s ease;
+}
+
+.vr-img:hover {
+    transform: scale(1.1);
+}
+
+
+
+.vr-infos-card {
+    margin-top: 14rem;
+    display: flex;
+    justify-content:space-around;
+    flex-direction: row;
+}
+
+
+
+
+.card-content {
+    background-color: rgb(0, 68, 255);
+    border-radius: 20px;
+    margin-right: 4rem;
+    padding: 2rem;
+    
+    transition: 0.7s ease;
+
+}
+
+.card-content:hover {
+    transform: scale(1.1);
+
+}
+
+.vr-card-title {
+    color: white;
+    margin-bottom: 1.4rem;
+    margin-top: 1rem;
+    letter-spacing: 1px;
+    font-size: 2.3rem;
+}
+
+.vr-p {
+    width: 70%;
+    text-align: start;
+    font-size: 1.4rem;
+    font-weight: 500;
+
+    
+}
+
+.games-section {
+    background-color:rgb(160, 44, 255);
+    padding-left: 6rem;
+    
+}
+
+.games-titles {
+    font-size: 1.4rem;
+    margin-bottom: 4rem;
+}
+
+
+.games-title {
+    text-align: center;
+    color: rgb(255, 255, 255);
+    padding-top: 3rem;
+    font-size: 3.5rem;
+
+}
+
+.games-subtitle {
+    color: rgb(0, 0, 0);
+    margin-top: 4rem;
+    font-size: 3rem;
+
+}
+
+.games-card {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    
+    
+}
+
+.games-card-content {
+    margin-top:5rem;
+    transition: 0.7s ease;
+    margin-bottom: 10rem;
+}
+
+.games-card-content:hover {
+    transform: scale(1.2);
+
+}
+
+.game-img {
+    border-radius: 20px;
+
+}
+
+.game-img:hover {
+    opacity: 0.9;
+}
+
+.games-card-titles {
+    color: rgb(0, 0, 0);
+    margin-top:1rem ;
+    text-align: center;
+    font-size: 1.6rem;
+    font-weight: 300;
+}
+
+
+.game-name {
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+.game-price {
+    margin-top: 0.2rem;
+}
+
+
+
+
+
 
 
