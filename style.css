@@ -319,6 +319,7 @@ html {
 
 .game-img {
     border-radius: 20px;
+    box-shadow: 5px 5px 20px black;
 
 }
 
@@ -328,7 +329,7 @@ html {
 
 .games-card-titles {
     color: rgb(0, 0, 0);
-    margin-top:1rem ;
+    margin-top:2rem ;
     text-align: center;
     font-size: 1.6rem;
     font-weight: 300;
@@ -342,6 +343,37 @@ html {
 .game-price {
     margin-top: 0.2rem;
 }
+
+
+.footer {
+    display: flex;
+    background-color: black;
+    padding: 0.8rem;
+}
+
+.footer h3 {
+    color: white;
+    font-weight: 600;
+    margin-left: 1rem;
+    margin-right: 75%;
+    letter-spacing: 1px;
+
+}
+
+.footer span {
+    color: rgb(32, 16, 255);
+    font-size: 1.2rem;
+    
+}
+
+.footer a {
+    margin-right: 30px;
+    font-size: 1.2rem;
+}
+
+
+
+
 
 
 
