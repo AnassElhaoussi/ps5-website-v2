@@ -385,7 +385,7 @@ html {
         
     }
 
-    navigation i {
+    .navigation i {
         width: 0;
     }
 
@@ -396,17 +396,17 @@ html {
     }
 
     .navigation a {
-        font-size: 1rem;
-        margin-right: 8rem;
+        font-size: 1.2rem;
+        margin-right: 10rem;
     }
 
     .tags {
-        margin-left: 4rem;
+        margin-left: 8rem;
         margin-top: 0.8rem;
     }
 
     section {
-        width: 150%;
+        width: 200%;
     }
 
     .container {
