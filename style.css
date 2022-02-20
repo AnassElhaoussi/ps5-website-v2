@@ -438,7 +438,7 @@ html {
     .color-box {
         height: 65%;
         width: 60%;
-        right: -41rem;
+        right: -41.1rem;
     }
 
     .card {
@@ -465,9 +465,7 @@ html {
     }
 
     .vr-img {
-        width: 55%;
-        right:-40rem;
-        margin-bottom: 64rem;
+        width: 0;
 
     }
 
