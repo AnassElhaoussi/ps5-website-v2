@@ -429,12 +429,16 @@ html {
     }
 
     .console-image {
-        width: 0;
+        width: 80%;
+        right: -41rem;
+        margin-top: 6rem;
         
     }
 
     .color-box {
-        height: 0;
+        height: 65%;
+        width: 60%;
+        right: -41rem;
     }
 
     .card {
@@ -461,7 +465,10 @@ html {
     }
 
     .vr-img {
-        width: 0;
+        width: 55%;
+        right:-40rem;
+        margin-bottom: 64rem;
+
     }
 
     .vr-infos-card {
